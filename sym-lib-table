@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "fet") (type "KiCad") (uri "${KIPRJMOD}/fet.kicad_sym") (options "") (descr ""))
+)

@@ -1,0 +1,674 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9a3efd35-ee4a-42e7-88b9-3932598b0630")
+	(paper "A3")
+	(title_block
+		(date "2026-05-29")
+		(rev "0.01")
+	)
+	(lib_symbols
+		(symbol "neexisymbols:PROFET_BTS432"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 5.08 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BTS432"
+				(at 5.08 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PROFET_BTS432_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PROFET_BTS432_1_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 10.16 270)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "VBB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 5.08 10.16 270)
+					(length 2.54)
+					(name "ST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Stop Lights\n"
+		(exclude_from_sim no)
+		(at 198.12 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "103f3ae0-5f57-4776-8888-0f416a5e82bf")
+	)
+	(text "Right Blinker\n"
+		(exclude_from_sim no)
+		(at 159.004 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4075cd2-8ec5-4bb1-bd38-3aa1079f0327")
+	)
+	(text "Left Blinker\n"
+		(exclude_from_sim no)
+		(at 123.698 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c557f07f-a938-4348-acd8-a567cbcf4597")
+	)
+	(text "Right Headlight\n"
+		(exclude_from_sim no)
+		(at 27.432 23.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd62743e-a0f6-4e40-8df3-4638ec299ceb")
+	)
+	(text "Left Headlight\n"
+		(exclude_from_sim no)
+		(at 69.596 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d906f103-f18c-4a45-ad99-d4558fd07a64")
+	)
+	(symbol
+		(lib_id "neexisymbols:PROFET_BTS432")
+		(at 207.01 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "078cf130-61a5-4069-ad4d-08425f9fec87")
+		(property "Reference" "U3"
+			(at 219.71 32.9498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTS432"
+			(at 219.71 35.4898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-4"
+			(at 207.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "619b2403-01a7-4921-b9a0-dbdc64b928f1")
+		)
+		(pin "3"
+			(uuid "acbb7a57-0597-4901-af63-d0afbd42e354")
+		)
+		(pin "5"
+			(uuid "fa159416-1010-4ca3-a31e-38066f8f7765")
+		)
+		(pin "2"
+			(uuid "7a7d1319-0556-4bf2-8b59-f453ad89ddf1")
+		)
+		(pin "1"
+			(uuid "066de5ba-1ea2-4608-ae9e-c8c34d9f1160")
+		)
+		(instances
+			(project "Pehlivan VCU"
+				(path "/d3bba3e0-f95d-4c3a-8f32-38c6fa59c3a2/7c884ca3-2c16-47b4-beb6-cee94ad0140f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neexisymbols:PROFET_BTS432")
+		(at 134.62 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087a263b-365b-4576-8695-beb37be3c711")
+		(property "Reference" "U6"
+			(at 147.32 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTS432"
+			(at 147.32 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-4"
+			(at 134.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "74e0e8ca-83e4-4653-9125-ae9219f5e846")
+		)
+		(pin "3"
+			(uuid "282a4b63-98a7-4b5a-ba06-7478f93eb116")
+		)
+		(pin "5"
+			(uuid "ea97761e-5d40-484f-b957-469b7fe3ab98")
+		)
+		(pin "2"
+			(uuid "bb90f78c-9ed7-4e3b-af1e-72f90f0470da")
+		)
+		(pin "1"
+			(uuid "5bb490d9-5d30-482c-8842-6c8803db530a")
+		)
+		(instances
+			(project "Pehlivan VCU"
+				(path "/d3bba3e0-f95d-4c3a-8f32-38c6fa59c3a2/7c884ca3-2c16-47b4-beb6-cee94ad0140f"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neexisymbols:PROFET_BTS432")
+		(at 82.55 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84193f75-0e67-487a-86c2-089688bddce9")
+		(property "Reference" "U5"
+			(at 95.25 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTS432"
+			(at 95.25 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-4"
+			(at 82.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "23887aaf-276f-4b25-a740-9f7ff7de97c2")
+		)
+		(pin "3"
+			(uuid "adef3167-9e73-4caf-bf9f-2dad9bfcbb77")
+		)
+		(pin "5"
+			(uuid "53e959df-7940-44ad-8dfd-d53bdc991dee")
+		)
+		(pin "2"
+			(uuid "2a5d3d27-e20f-40fb-b743-79736efbb08a")
+		)
+		(pin "1"
+			(uuid "12ad2829-9d8d-4ed2-b61e-8366ae6739cc")
+		)
+		(instances
+			(project "Pehlivan VCU"
+				(path "/d3bba3e0-f95d-4c3a-8f32-38c6fa59c3a2/7c884ca3-2c16-47b4-beb6-cee94ad0140f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neexisymbols:PROFET_BTS432")
+		(at 43.18 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d397ab9b-c992-430a-bff7-05f3cecee779")
+		(property "Reference" "U4"
+			(at 55.88 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTS432"
+			(at 55.88 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-4"
+			(at 43.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "838a640e-4b22-4885-a939-b3576994a02d")
+		)
+		(pin "3"
+			(uuid "52ad59e7-ca5f-407d-86fa-7bfa37ca8201")
+		)
+		(pin "5"
+			(uuid "59985cff-e8db-4ffb-800f-9a5928fe315b")
+		)
+		(pin "2"
+			(uuid "f773f5e6-d9af-4204-8487-620e060b38a0")
+		)
+		(pin "1"
+			(uuid "fab67916-532b-444e-ba3f-84306f78f800")
+		)
+		(instances
+			(project "Pehlivan VCU"
+				(path "/d3bba3e0-f95d-4c3a-8f32-38c6fa59c3a2/7c884ca3-2c16-47b4-beb6-cee94ad0140f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neexisymbols:PROFET_BTS432")
+		(at 167.64 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfadc0fe-d09b-4ed5-98d6-93960c4e1ae6")
+		(property "Reference" "U2"
+			(at 180.34 34.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTS432"
+			(at 180.34 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-4"
+			(at 167.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "607c5381-0031-4f61-9f4e-b8a1a31e34f1")
+		)
+		(pin "3"
+			(uuid "d2cfcbd2-eac3-4ae2-a039-7f5bfb8dae49")
+		)
+		(pin "5"
+			(uuid "b9733b18-7b62-426d-8e96-51c60e9bb31a")
+		)
+		(pin "2"
+			(uuid "3d3e1d05-7ef7-4dd1-8790-33c162e8bf8d")
+		)
+		(pin "1"
+			(uuid "e0ead430-e12f-4f0f-b8ee-76ae1ff604d2")
+		)
+		(instances
+			(project "Pehlivan VCU"
+				(path "/d3bba3e0-f95d-4c3a-8f32-38c6fa59c3a2/7c884ca3-2c16-47b4-beb6-cee94ad0140f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
