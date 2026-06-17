@@ -557,10 +557,24 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.8,
+        "clearance": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FETPUTS",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 234, 0)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
         "name": "PWR_HIGH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "tuning_profile": "",
@@ -568,10 +582,10 @@
         "via_drill": 1.0
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2,
         "name": "PWR_LOGIC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(108, 0, 0)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -588,6 +602,30 @@
       {
         "netclass": "Default",
         "pattern": "+12V"
+      },
+      {
+        "netclass": "FETPUTS",
+        "pattern": "/F_H*"
+      },
+      {
+        "netclass": "FETPUTS",
+        "pattern": "/*_FAULT"
+      },
+      {
+        "netclass": "FETPUTS",
+        "pattern": "/*_Blinker"
+      },
+      {
+        "netclass": "FETPUTS",
+        "pattern": "/F_BrakeLights"
+      },
+      {
+        "netclass": "FETPUTS",
+        "pattern": "/HORN"
+      },
+      {
+        "netclass": "PWR_LOGIC",
+        "pattern": "+3V3"
       }
     ]
   },
@@ -595,7 +633,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -605,7 +643,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -719,7 +757,7 @@
         "uuid": "d3bba3e0-f95d-4c3a-8f32-38c6fa59c3a2"
       }
     ],
-    "used_designators": "U1-9,R1-13,J1-9,Yx1,C1-20,H1-4,BT1,#PWR1-55",
+    "used_designators": "H1-4,BT1,J1-12,R1-20,C1-22,D1-10,Y1-2,#PWR1-76,Q1-6,U1-10",
     "variants": []
   },
   "sheets": [
