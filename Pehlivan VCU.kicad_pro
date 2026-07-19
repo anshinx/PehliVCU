@@ -1,6 +1,83 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "Back",
+        "ww": 1.0,
+        "wx": 22.12972068786621,
+        "wy": 15.773999214172363,
+        "wz": -15.999611854553223,
+        "xw": 0.0,
+        "xx": -1.0,
+        "xy": 0.0,
+        "xz": -1.7555552403791808e-05,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 0.0,
+        "zw": 0.0,
+        "zx": 1.7555552403791808e-05,
+        "zy": 0.0,
+        "zz": -1.0
+      },
+      {
+        "name": "Front",
+        "ww": 1.0,
+        "wx": -22.12972068786621,
+        "wy": 15.773999214172363,
+        "wz": -15.999996185302734,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": -1.7484555314695172e-07,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 0.0,
+        "zw": 0.0,
+        "zx": 1.7484555314695172e-07,
+        "zy": 0.0,
+        "zz": 1.0
+      },
+      {
+        "name": "LUQ",
+        "ww": 1.0,
+        "wx": -27.04591178894043,
+        "wy": 2.1839041709899902,
+        "wz": -22.810108184814453,
+        "xw": 0.0,
+        "xx": 0.8622080087661743,
+        "xy": 0.23273000121116638,
+        "xz": -0.4499261677265167,
+        "yw": 0.0,
+        "yx": -0.5049757957458496,
+        "yy": 0.46495211124420166,
+        "yz": -0.7271996140480042,
+        "zw": 0.0,
+        "zx": 0.03995285928249359,
+        "zy": 0.8541992902755737,
+        "zz": 0.5184082388877869
+      },
+      {
+        "name": "RUQ",
+        "ww": 1.0,
+        "wx": -6.813024520874023,
+        "wy": 16.91046905517578,
+        "wz": -43.579071044921875,
+        "xw": 0.0,
+        "xx": 0.7660446166992188,
+        "xy": -0.41315534710884094,
+        "xz": 0.49242085218429565,
+        "yw": 0.0,
+        "yx": 0.6427873969078064,
+        "yy": 0.4924214780330658,
+        "yz": -0.586809515953064,
+        "zw": 0.0,
+        "zx": -3.5111104807583615e-05,
+        "zy": 0.7660441994667053,
+        "zz": 0.6427878737449646
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_barcodes": false,
@@ -221,7 +298,6 @@
       ],
       "track_widths": [
         0.0,
-        0.25,
         0.3,
         0.35,
         0.4,
@@ -263,16 +339,20 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.55,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
-          "diameter": 0.65,
-          "drill": 0.4
+          "diameter": 0.75,
+          "drill": 0.45
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.75
         }
       ],
       "zones_allow_external_fillets": false
@@ -284,7 +364,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.01"
+      "sch_revision": "0.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -707,12 +787,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -757,7 +861,7 @@
         "uuid": "d3bba3e0-f95d-4c3a-8f32-38c6fa59c3a2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U2,Q6",
     "variants": []
   },
   "sheets": [
